@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Cinta Bayu & Yenda</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe4e1, #fbc2eb, #fad0c4);
+            color: #333;
+            line-height: 1.6em;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #ff6f91;
+            color: #fff;
+            border-bottom: 5px solid #ff4f7a;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.4em;
+            margin: 10px 0 0;
+        }
+        .content {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .content h2 {
+            color: #ff6f91;
+            margin-bottom: 15px;
+        }
+        .content p {
+            font-size: 1.2em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .interactive {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .interactive button {
+            background: #ff6f91;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s;
+        }
+        .interactive button:hover {
+            background: #ff4f7a;
+        }
+        .form {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .form input, .form textarea {
+            width: calc(100% - 40px);
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form button {
+            margin-top: 15px;
+            background: #6a89cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background: #4a69bd;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background: #333;
+            color: #fff;
+            font-size: 1em;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        function kirimPesan() {
+            const nama = document.getElementById('nama').value;
+            const pesan = document.getElementById('pesan').value;
+            if (nama && pesan) {
+                const nomorWA = '62085212637719';
+                const url = `https://wa.me/${nomorWA}?text=Halo%20Bayu%20dan%20Yenda%2C%0A%0ANama%3A%20${encodeURIComponent(nama)}%0APesan%20Cinta%3A%20${encodeURIComponent(pesan)}`;
+                window.open(url, '_blank');
+            } else {
+                alert('Silakan isi nama dan pesan cinta terlebih dahulu!');
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Cinta Abadi Bayu & Yenda</h1>
+        <p>"Setiap detik bersamamu adalah keajaiban yang tak ternilai."</p>
+    </header>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o25_Tn8BnFM" title="Lagu Romantis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="content">
+        <h2>Untuk Yendaku...</h2>
+        <p>"Setiap detik bersamamu adalah keabadian yang ingin kuabadikan. Ketika aku melihat senyummu, dunia seakan berhenti sejenak, dan hanya ada kita berdua dalam keindahan yang abadi."</p>
+        <p>"Aku mencintaimu bukan hanya karena siapa dirimu, tetapi juga karena siapa aku ketika bersamamu."</p>
+
+        <h2>Untuk Yendaku...</h2>
+        <p>"Yenda, dalam setiap detak jantungku, ada namamu yang bergetar. Seperti bintang yang tak pernah lelah bersinar, kau adalah cahaya dalam hidupku. Setiap kali aku melihatmu, dunia seakan berhenti sejenak, dan semua yang ada di sekitarku memudar. Senyummu adalah melodi terindah yang mengalun di telingaku, dan tatapanmu adalah jendela ke dalam hatiku. Bersamamu, setiap hari adalah puisi yang tak pernah selesai ditulis, dan aku ingin menjadi penulis yang setia, menciptakan kisah cinta kita yang abadi."</p>
+        <p>"Di antara keramaian dunia, aku menemukan ketenangan dalam senyummu. Setiap momen bersamamu adalah anugerah yang tak ternilai. Ketika kita berbagi tawa, atau bahkan saat kita hanya duduk diam berdua, aku merasa seolah waktu berhenti. Kamu adalah alasan di balik setiap senyumku, dan aku berjanji akan selalu menjaga setiap momen berharga yang kita miliki. Dalam pelukanmu, aku menemukan rumah, tempat di mana aku bisa menjadi diriku sendiri tanpa rasa takut. Cintamu adalah pelita yang menerangi jalan hidupku, dan aku bersyukur setiap hari untuk kehadiranmu."</p>
+
+        <h2>Untuk Yendaku...</h2>
+        <p>"Apri, jika cinta adalah sebuah makanan, maka aku ingin menjadi pizza yang selalu kau inginkan. Karena, siapa yang bisa menolak kelezatan cinta yang penuh topping kebahagiaan ini? Aku berjanji akan selalu membuatmu tertawa, bahkan di hari-hari yang kelabu. Bayangkan kita berdua, duduk di sofa, menikmati film sambil menyantap pizza, dan aku berusaha menirukan suara karakter favoritmu. Jangan khawatir, aku tidak akan membuatmu gemuk, hanya membuatmu bahagia! Setiap tawa yang kita bagi adalah bumbu rahasia dalam resep cinta kita."</p>
+        <p>"etiap kali aku melihatmu, hatiku bergetar seperti jeli yang baru saja dituang. Kamu adalah alasan mengapa aku tersenyum tanpa alasan, dan aku berjanji akan selalu membuatmu merasa istimewa, seperti bintang di langit malam. Ketika kita berjalan berdua, aku ingin menggenggam tanganmu erat-erat, seolah dunia ini hanya milik kita. Dalam setiap detik yang kita habiskan bersama, aku ingin menciptakan kenangan yang akan kita bawa selamanya. Apri, kau adalah bintang di langitku, dan aku akan selalu berusaha menjadi bulan yang menemanimu bersinar."</p>
+    </div>
+    <div class="content gallery">
+        <img src="1.jpeg" alt="Foto kenangan 1">
+        <img src="2.jpeg" alt="Foto kenangan 2">
+        <img src="3.jpeg" alt="Foto kenangan 3">
+    </div>
+    <div class="content form">
+        <h2>Tulis Pesan Cintamu</h2>
+        <form onsubmit="event.preventDefault(); kirimPesan();">
+            <input id="nama" type="text" placeholder="Namamu" required>
+            <textarea id="pesan" rows="4" placeholder="Pesan cintamu..." required></textarea>
+            <button type="submit">Kirim Pesan via WhatsApp</button>
+        </form>
+    </div>
+    <footer>
+        <p>"Semoga cinta kita selalu bersemi dan penuh warna!" &copy; 2025</p>
+    </footer>
+</body>
+</html>
